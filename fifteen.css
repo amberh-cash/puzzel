@@ -1,0 +1,36 @@
+/*
+Mengyuan Huang
+cse154 AJ
+this is the CSS stylessheet for the web page.
+*/
+body{
+	text-align: center;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#puzzlearea{
+	width:400px;
+	height: 400px;
+	position: relative;
+	margin: auto;
+}
+
+.square, .hover{
+	position: absolute;
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	font-size: 40pt;
+}
+
+.square{
+	border:5px solid black;
+	cursor:default;
+}
+
+.hover {
+	color:red;
+	border:5px solid red;
+	cursor:pointer;
+}
